@@ -1,21 +1,39 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
+# Dr. Serena – Therapy Website (Internship Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi! 👋  
+This is a React + Vite project I built as part of my internship task for **GrowMyTherapy.com**. The website is designed for **Dr. Serena Blake**, a licensed therapist, and it includes a modern, mobile-responsive layout with a working contact form.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** https://dr-serena-blakeproject-qoxga2r16-ansh-guptas-projects-9f2f8e24.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I used **React** along with **Vite** for fast development and modern tooling. The site includes multiple pages managed through **React Router**, and I’ve used **React Hooks** like `useState` and `useNavigate` for form state management and routing.
 
-## Expanding the ESLint configuration
+### Features:
+- Fully **responsive** design for all screen sizes
+- Professionally structured layout for a mental health professional
+- **Contact form** with fields like:
+  - Name, Email, Phone
+  - Preferred contact time and method
+  - Google reCAPTCHA ready
+- Background video section for visual appeal
+- Organized file structure using component-based design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Dr.-Serena
-I make this website of Dr. Serena for my internship project of growmytherapy.com. 
->>>>>>> add44b8c987e59263509c77021a9942fd7fc4b64
-=======
-# Dr.-Serena-Project-
->>>>>>> c63c1ef36e6ff61e8f254eac7e6d0002bb2a8ef0
+### Tech Stack:
+- React + Vite
+- React Router DOM
+- React Hooks
+- CSS 
+- Vercel (for deployment)
+
+### How to Run:
+```bash
+npm install
+npm run dev
+To build and preview production:
+
+About Me:
+Ansh Gupta
+anshgupta0318@gmail.com
+Frontend Developer (Internship Project)
+Currently learning and building frontend projects using modern tools and best practices.
+
+Thanks for checking out the project! 🙂
