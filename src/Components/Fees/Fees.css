@@ -1,0 +1,104 @@
+.fees-det {
+    text-align: center;
+    padding: 60px 20px;
+
+    background-color: hsla(180,15.05%,63.53%,1);
+}
+
+.fees-det h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #41413f;
+  margin-bottom: 20px;
+}
+
+.fees-det p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #41413f;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+.thought-section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thought-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+
+.thought-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #000000; 
+  font-family: 'Playfair Display', serif;
+  padding: 0 20px;
+  max-width: 900px;
+}
+
+.thought-text h1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.thought-text p {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+
+@media (max-width: 480px) {
+  .fees-det {
+    padding: 40px 15px;
+  }
+
+  .fees-det h1 {
+    font-size: 1.6rem;
+  }
+
+  .fees-det p {
+    font-size: 1.05rem;
+  }
+
+  .thought-section {
+    height: auto;
+    padding: 60px 15px;
+    flex-direction: column;
+  }
+
+  .thought-bg {
+    object-position: center;
+    filter: brightness(0.9); 
+  }
+
+  .thought-text {
+    padding: 0 10px;
+  }
+
+  .thought-text h1 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .thought-text p {
+    font-size: 0.9rem;
+  }
+}

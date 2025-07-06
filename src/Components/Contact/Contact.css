@@ -1,0 +1,135 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: white;
+  border: 1px solid #2f4f4f;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  margin-bottom: 2rem;
+}
+
+.form h1 {
+  text-align: center;
+
+  color: #1e3a3a;
+  margin-bottom: 0.5rem;
+}
+
+.form p {
+  text-align: center;
+
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #1e3a3a;
+}
+
+.form input,
+.form textarea,
+.form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.3rem;
+  border: 1px solid #2f4f4f;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: #fff;
+  outline: none;
+}
+
+.form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form .captcha {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form button {
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #1e3a3a;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #174242;
+}
+
+small {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: #333;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 2rem 1rem;
+  }
+
+  .form {
+    padding: 1.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+
+  .form h1 {
+    font-size: 1.5rem;
+  }
+
+  .form p {
+    font-size: 0.85rem;
+  }
+
+  .form label {
+    font-size: 0.95rem;
+  }
+
+  .form input,
+  .form textarea,
+  .form select {
+    font-size: 0.95rem;
+    padding: 8px;
+  }
+
+  .form button {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  small {
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+  }
+}

@@ -1,0 +1,40 @@
+.footer {
+    background-color: hsla(43.64,31.43%,93.14%,1);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer h1 {
+     font-size: 1.6rem;
+  font-weight: 500;
+  font-family: 'Georgia', serif;
+  margin-bottom: 15px;
+  color: #41413f;
+}
+
+.footer p {
+      font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-family: 'Georgia', serif;
+  color: #41413f;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 25px 15px;
+  }
+
+  .footer h1 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .footer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
